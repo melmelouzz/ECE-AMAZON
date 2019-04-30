@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<h1>Livraison</h1>
+		<meta charset="utf-8">
+	</head> 
+	<body>
+		<form name = "formulaire1" method ="POST" action="paiement.php">
+			<table>
+				<tr>
+					<td>Nom: </td>
+					<td><input type="text" name="nomclient"/></td>
+				</tr>
+				<tr>
+					<td>Prénom:  </td>
+					<td><input type="text" name="prenomclient"/></td>
+				</tr>
+
+			<tr>
+				<td>Adresse</td>
+				<td><TEXTAREA type="text" name="adresse" placeholder="No. Rue"></TEXTAREA> </td>
+			</tr>
+
+			<tr>
+			<td>Code Postal | Ville | Pays </td>
+			<td><input type="text" name="codepostal">
+				<input type="text" name="ville"/>
+				<input type="text" name="pays"/></td>
+</tr>
+			<tr>
+				<td>Numero de telephone</td>
+				<td><input type="number" name="numerotel"/></td>
+			</tr>
+	</table>
+		</form>
+
+
+		<body>
+		<form name = "formulaire2" method ="POST" action="paiement.php">
+			<table>
+            <div class="paiement"> 
+			<h1>Paiement</h1>	
+			<tr>
+			<td>type de paiement </td>
+					<td><SELECT name="type" size="1">
+							<OPTION>Visa
+							<OPTION>MasterCard
+							<OPTION>American Express
+							<OPTION>PayPal
+						</SELECT>
+
+					</td>
+    	 </tr>
+    	 <tr>
+    	 	<td>Numéro de la carte</td>
+    	 	<td><input type="number" name="numerocarte"/></td>
+			</tr>
+
+			<tr>
+				<td>Nom affiché sur la carte</td>
+				<td><input type="text" name="nomcarte"/></td>
+			</tr>
+			<tr>
+				<td>Date d'expiration</td>
+				<td><input type="month" name="expiration"/></td>
+			</tr>
+			<tr>
+				<td>Code de sécurité</td>
+				<td><input type="number" name="codesecu"/></td>
+
+    	</div>
+				<tr>
+					<td colspan="2" />
+					<input type="submit" value="Soumettre">
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
