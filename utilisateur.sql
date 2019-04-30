@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Apr 30, 2019 at 11:43 AM
+-- Generation Time: Apr 30, 2019 at 11:51 AM
 -- Server version: 5.7.25
 -- PHP Version: 7.3.1
 
@@ -17,29 +17,43 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `acheteur`
+-- Table structure for table `utilisateur`
 --
 
-CREATE TABLE `acheteur` (
-  `Adresse1` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Adresse2` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Ville` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `CP` int(11) NOT NULL,
-  `Pays` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Tel` int(11) NOT NULL,
-  `Typecarte` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Numcarte` int(11) NOT NULL,
-  `Nomcarte` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `Datecarte` date NOT NULL,
-  `Codesecu` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+CREATE TABLE `utilisateur` (
+  `Type` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Nom` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `Prenom` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `ID` int(11) NOT NULL,
+  `Mail` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `MDP` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `utilisateur`
+--
+
+INSERT INTO `utilisateur` (`Type`, `Nom`, `Prenom`, `ID`, `Mail`, `MDP`) VALUES
+('acheteur', 'Clavier', 'Melanie', 22, 'melanie.clavier@hotmail.fr', 'bonjour'),
+('vendeur', 'Marie', 'Hugues', 10, 'hugues.marie@gmail.com', 'coucou'),
+('Acheteur', 'Guetienne', 'Emma', 3, 'emma.guetienne@hotmail.fr', 'hello');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `acheteur`
+-- Indexes for table `utilisateur`
 --
-ALTER TABLE `acheteur`
-  ADD PRIMARY KEY (`Tel`);
+ALTER TABLE `utilisateur`
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `utilisateur`
+--
+ALTER TABLE `utilisateur`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=334;
