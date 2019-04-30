@@ -1,0 +1,50 @@
+type: vetement
+nom: veste
+description: Veste boutonnée sur le devant avec liens à la taille - Écru
+prix: 29,99 €
+taille: S, M, L
+couleur: ecru
+genre: femme
+titre: null
+auteur: null
+état: 1 (1: non vendu, 0: vendu)
+id: 01
+
+
+type: livre
+nom: null
+description: Algérie, années 1930. Les champs de blés frissonnent. Dans trois jours, les moissons, le salut. Mais une triste nuit vient consumer l'espoir. Le feu. Les cendres. Pour la première fois, le jeune Younes voit pleurer son père.
+Et de pleurs, la vie de Younes ne manquera pas. Confié à un oncle pharmacien, dans un village de l'Oranais, le jeune garçon s'intègre à la communauté pied-noir. Noue des amitiés indissolubles, françaises, juives : « les doigts de la fourche », comme on les appelle. Et le bonheur s'appelle Émilie, une « princesse » que les jeunes gens se disputent. Alors que l'Algérie coloniale vit ses derniers feux, dans un déchaînement de violences, de déchirures et de trahisons, les amitiés se disloquent, s'entrechoquent. Femme ou pays, l'homme ne peut jamais oublier un amour d'enfance…
+prix: 8 €
+taille: null
+couleur: null
+genre: null
+titre: Ce que le jour doit à la nuit
+auteur: Yasmina Khadra
+état: 1 (1: non vendu, 0: vendu)
+id: 02
+
+
+type: musique
+nom: null
+description: Stromae est un ovni venu de belgique. Créateur des désormais célèbres ''Leçons de Stromae'', ses vidéos virales rencontrent un vif succès sur la toile. Stromae y explique comment 'faire un tube' avec un esprit décalé et un style minimal. Le buzz fait vite le tour de la Belgique avec + de 500 000 views cumulées sur Youtube. Par extension l'Allemagne et la France commencent à découvrir le phénomène Stromae. Flow lancinant, prod minimale et entêtante, lyrics désabusés mais très second degré : il semblerait que Stromae ait trouvé la recette miracle pour faire danser les clubs.
+prix: 2€
+taille: null
+couleur: null
+genre: null
+titre: Alors on danse
+auteur: Stromae
+état: 1
+id: 03
+
+type: Sport et Loisir
+nom: KollyKolla
+description: KollyKolla Gourde Isotherme Enfant Acier Inoxydable Sport Bouteille d'eau Reutilisable Gourdes sans BPA Bouteilles Isothermes Bidon avec Paille et Filtre Thé Fruit Infuseur, 350ml/500ml/600ml/750ml
+prix: 15€
+taille: null
+couleur: rouge, vert, bleu, violet
+genre: null
+titre: null
+auteur: null
+etat: 1 
+id: 04
