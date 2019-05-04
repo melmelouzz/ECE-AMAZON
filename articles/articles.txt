@@ -1,41 +1,109 @@
 type: vetement
 nom: veste
 description: Veste boutonnée sur le devant avec liens à la taille - Écru
-prix: 29,99 €
-taille: S, M, L
+prix: 30
+taille: 34
 couleur: ecru
 genre: femme
-titre: null
-auteur: null
-état: 1 (1: non vendu, 0: vendu)
-id: 01
 
+type: vetement
+nom: debardeur
+description:  Top court brodé noué sur le devant
+prix: 16
+taille: 36
+couleur: kaki
+genre: femme
 
-type: livre
-nom: null
-description: Algérie, années 1930. Les champs de blés frissonnent. Dans trois jours, les moissons, le salut. Mais une triste nuit vient consumer l'espoir. Le feu. Les cendres. Pour la première fois, le jeune Younes voit pleurer son père.
-Et de pleurs, la vie de Younes ne manquera pas. Confié à un oncle pharmacien, dans un village de l'Oranais, le jeune garçon s'intègre à la communauté pied-noir. Noue des amitiés indissolubles, françaises, juives : « les doigts de la fourche », comme on les appelle. Et le bonheur s'appelle Émilie, une « princesse » que les jeunes gens se disputent. Alors que l'Algérie coloniale vit ses derniers feux, dans un déchaînement de violences, de déchirures et de trahisons, les amitiés se disloquent, s'entrechoquent. Femme ou pays, l'homme ne peut jamais oublier un amour d'enfance…
-prix: 8 €
-taille: null
-couleur: null
-genre: null
-titre: Ce que le jour doit à la nuit
-auteur: Yasmina Khadra
-état: 1 (1: non vendu, 0: vendu)
-id: 02
+type: vetement
+nom: veste daim
+description: Perfecto en suédine asos design
+prix: 42
+taille: 32
+couleur: beige
+genre: femme
 
+type: vetement
+nom: pantalon
+descritpion :  Pantalon habillé à carreaux
+prix : 44
+taille : 40
+couleur : gris anthracite
+genre : homme
+
+type: vetement
+nom: chemise
+description: Chemise à larges rayures verticales et logo drapeau en piqué
+prix: 88
+taille: 42
+couleur: rouge
+genre: homme
+
+type: vetement
+nom: short
+description: Short décontracté à plis en tissu texturé
+prix: 38
+taille: 42
+couleur: beige
+genre: homme
+
+type: vetement
+nom: body
+description: Body cache-cœur bordé de dentelle à manches ange
+prix: 27
+taille: 32
+couleur: noir
+genre: femme
+
+type: vetement
+nom: ensemble
+description: ensemble en satin motif cachemire
+prix : 42
+taille : 40
+couleur : blanc
+genre : femme 
+
+type: vetement
+nom: robe
+descritpion:  Robe d'été courte boutonnée à ceinture
+prix: 31
+taille: 32
+couleur: blanc
+genre: femme
+
+type: vetement 
+nom: chapeau
+description: Chapeau mou en paille naturelle avec effet tressé et tour de tête ajustable
+prix: 23
+taille: 34
+couleur: paille
+genre: femme
 
 type: musique
-nom: null
 description: Stromae est un ovni venu de belgique. Créateur des désormais célèbres ''Leçons de Stromae'', ses vidéos virales rencontrent un vif succès sur la toile. Stromae y explique comment 'faire un tube' avec un esprit décalé et un style minimal. Le buzz fait vite le tour de la Belgique avec + de 500 000 views cumulées sur Youtube. Par extension l'Allemagne et la France commencent à découvrir le phénomène Stromae. Flow lancinant, prod minimale et entêtante, lyrics désabusés mais très second degré : il semblerait que Stromae ait trouvé la recette miracle pour faire danser les clubs.
 prix: 2€
-taille: null
-couleur: null
-genre: null
 titre: Alors on danse
 auteur: Stromae
-état: 1
-id: 03
+
+type: musique
+description: Angèle sort à présent son premier album, dont le titre est une expression qui nous rappelle ses origines bruxelloises.
+prix: 15
+titre: Brol
+Auteur: Angèle
+
+type: musique
+descritption: Deux frères est le troisième album studio du duo de rap français PNL
+prix: 18
+titre: Deux frères
+Auteur: PNL
+
+type: musique
+description: Le rendez-vous de fin d’année de l’artiste le plus prolifique du paysage français est pris !
+prix: 12
+titre: D'or et Platine
+auteur: Jul
+
+
+
 
 type: Sport et Loisir
 nom: KollyKolla
@@ -46,5 +114,153 @@ couleur: rouge, vert, bleu, violet
 genre: null
 titre: null
 auteur: null
-etat: 1 
-id: 04
+
+type: Sport et Loisir
+nom: Raquette
+description: raquette de tennis adulte TR160 graph noir artengo
+prix: 35
+taille: 32
+couleur: blanc
+genre: homme
+
+type: Sport et Loisir
+nom: club de golf
+description: kit de golf 7 clubs homme droitier 900 inesis
+prix: 240
+taille: 32
+couleur: Argenté
+genre: homme
+
+
+type: Sport et Loisir
+nom: jeu flechette
+description: Cibles de Fléchettes X1 43 cm Compétition Jeu de fléchettes avec 6 fléchettes, noir-blanc
+prix: 21
+taille: 32
+couleur: rouge et vert
+genre: femme
+
+type: Sport et Loisir 
+nom: montre connecté
+description: étanche jusqu'à 50 mètres de profondeur
+prix: 26
+taille: 34
+couleur: noire
+genre: homme
+
+type: sport et loisir
+nom: Chaussures Nike
+description: Nike Air Monarch Iv, Chaussures de Fitness
+prix: 45
+taille: 42
+couleure: blanc
+genre: homme
+
+
+type: Sport et loisir
+nom: ballon
+description:PARIS SAINT GERMAIN Ballon PSG - Signatures des Joueurs - Collection Officielle T 5
+prix: 25
+taille : 36
+couleur: bleu
+genre: homme 
+
+type: Sport et loisir
+nom: maillot de foot
+descrition:Equipe de FRANCE de football T-Shirt FFF - Kylian MBAPPE - Collection Officielle
+prix: 86
+taille: 40
+couleur: bleu
+genre: homme
+
+
+type: sport et loisir
+nom: trotinette electrique
+description: trotinette electrique Xiaomi FBC4004GL
+prix: 279
+taille:38
+couleur: noir
+genre: femme
+
+type: sport et loisir	
+nom: lunette de natation
+descritpion: Aucune Fuite Protection UV Antibuée Longueur Réglable
+prix : 22
+taille: 32
+couleur: noir et blanc
+genre: femme
+
+
+type: Livre
+description : 30 juillet 1994. Orphea, petite station balnéaire tranquille des Hamptons dans l’État de New York, est bouleversée par un effroyable fait divers: le maire de la ville et sa famille sont assassinés chez eux, ainsi qu’une passante, témoin des meurtres.
+prix: 11€
+titre: La disparition de Stéphanie Mailer
+auteur: Joël Dicker
+
+
+type: livre
+description: Algérie, années 1930. Les champs de blés frissonnent. Dans trois jours, les moissons, le salut. Mais une triste nuit vient consumer l'espoir. Le feu. Les cendres. Pour la première fois, le jeune Younes voit pleurer son père.
+Et de pleurs, la vie de Younes ne manquera pas. Confié à un oncle pharmacien, dans un village de l'Oranais, le jeune garçon s'intègre à la communauté pied-noir. Noue des amitiés indissolubles, françaises, juives : « les doigts de la fourche », comme on les appelle. Et le bonheur s'appelle Émilie, une « princesse » que les jeunes gens se disputent. Alors que l'Algérie coloniale vit ses derniers feux, dans un déchaînement de violences, de déchirures et de trahisons, les amitiés se disloquent, s'entrechoquent. Femme ou pays, l'homme ne peut jamais oublier un amour d'enfance…
+prix: 8 €
+titre: Ce que le jour doit à la nuit
+auteur: Yasmina Khadra
+
+
+type: Livre
+descritption: La Fille du train est un thriller psychologique écrit par l'auteur britannique Paula Hawkins, édité en 2015
+prix: 10
+titre: La fille du train
+auteur: Paula Hawkins
+
+type: Livre
+description: Pourrez vous remonter à la surface En froid avec sa soeur Nel depuis des années, Julia n'a pas voulu lui répondre lorsque celle ci a tenté de la joindre
+prix: 9
+titre: Au fond de l'eau
+auteur: Paula Hawkins
+
+type: Livre 
+description: Orphelin, le jeune Harry Potter peut enfin quitter ses tyranniques oncle et tante Dursley lorsqu'un curieux messager lui révèle qu'il est un sorcier
+prix: 12
+titre: Harry Potter à l'ecole des sorciers
+auteur: J.K. Rowling
+
+type: Livre
+description: Ce roman se passe à Paris. Et pourtant on y croise des crocodiles
+prix: 13
+titre: Les yeux jaunes des crocodiles
+auteur Katherine Pancol 
+
+type: livre
+description: Bel-Ami est un roman réaliste de Guy de Maupassant, publié en 1885
+prix: 3
+titre: Bel ami
+Auteur: Maupassant
+
+Type: Livre
+descritpion: L'histoire s'inspire très librement de la vie d'Alexandre Selkirk. 
+prix: 5
+titre: Robinson Crusoé
+Auteur: Daniel Defoe
+
+Type: Livre
+description:Livre avec toutes les meilleures sneakers
+prix: 40
+titre: The ultimate Sneaker book
+auteur:simon wood
+
+
+Type: Livre
+description: L'Étranger est le premier roman d’Albert Camus, paru en 1942.
+prix: 6
+titre: L'Etranger
+auteur: Albert Camus
+
+
+
+
+
+
+
+
+
+
